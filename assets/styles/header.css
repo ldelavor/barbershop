@@ -1,0 +1,65 @@
+@media screen and (min-width: 0px){
+    /* -- Header Styles -- */
+    /* Adjustement oh the header space in the page*/
+    .headerBox {
+        background: #CCCCCC;
+        height: auto;
+        text-align: center;
+    }
+
+    /* logo-image adjustement */
+    .header__logo {
+        width: 10rem;
+        height: 13rem;
+        object-fit: cover;
+        margin: 0.2rem;
+        /*margin and padding directions: 'top right bottom left'*/
+    }
+
+    /* Setting the items list*/
+    /* The selector 'nav li' can also be used */
+    .header__item {
+        display: inline;
+        margin: 0 0.5rem;
+        font-weight: 700;
+    }
+
+    /* Giving a space between the list and the headerBox */
+    .header__nav {
+        padding: 0.5rem 0 1.5rem ;
+    }
+
+    /* Styling the archored text */
+    /* The selector 'nav a' can also be used */
+    .header__link {
+        text-transform: uppercase;
+        color: #151515;
+        font-size: 1.1rem;
+        /* Removing the default decoration applied on the text given by tag 'nav' */
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .header__link {
+        font-size: 1.3rem;
+    }
+}
+
+/* Overwriting when width screen greater than 600px */
+@media screen and (min-width: 600px){
+    /* -- Header Styles -- */
+    .headerBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__item {
+        margin: 0 1rem 0 0;
+    }
+
+    .header__link {
+        font-size: 1.5rem;
+    }
+}
