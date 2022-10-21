@@ -1,0 +1,31 @@
+@media screen and (min-width: 0px) {
+    /* -- Footer Styles -- */
+    .footBox {
+        text-align: center;
+        /* Using image as background*/
+        background: url("../images/bg.jpg");
+    }
+    
+    .footBox__whitelogo {
+        width: 10rem;
+        height: 11rem;
+        object-fit: fill;
+    }
+
+    .footBox__copyright-text {
+        padding-bottom: 0.5rem;
+        color: #FFF;
+        margin-top: 0.4rem;
+        margin-bottom: 0;
+    }
+
+    .footBox__link {
+        color: #FFF;
+        text-decoration: underline;
+    }
+
+    .education-purpose{
+        font-size: 0.85rem;
+        padding-bottom: 1rem;
+    }
+}
